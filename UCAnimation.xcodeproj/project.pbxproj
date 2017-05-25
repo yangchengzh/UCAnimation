@@ -15,6 +15,7 @@
 		687FEB051EC2FE1A0015FB08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 687FEB031EC2FE1A0015FB08 /* LaunchScreen.storyboard */; };
 		687FEB101EC2FE1A0015FB08 /* UCAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 687FEB0F1EC2FE1A0015FB08 /* UCAnimationTests.m */; };
 		687FEB1B1EC2FE1A0015FB08 /* UCAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 687FEB1A1EC2FE1A0015FB08 /* UCAnimationUITests.m */; };
+		687FEB2A1EC2FE600015FB08 /* UCView.m in Sources */ = {isa = PBXBuildFile; fileRef = 687FEB291EC2FE600015FB08 /* UCView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		687FEB161EC2FE1A0015FB08 /* UCAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UCAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		687FEB1A1EC2FE1A0015FB08 /* UCAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UCAnimationUITests.m; sourceTree = "<group>"; };
 		687FEB1C1EC2FE1A0015FB08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		687FEB281EC2FE600015FB08 /* UCView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UCView.h; sourceTree = "<group>"; };
+		687FEB291EC2FE600015FB08 /* UCView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UCView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				687FEAF91EC2FE1A0015FB08 /* AppDelegate.m */,
 				687FEAFB1EC2FE1A0015FB08 /* ViewController.h */,
 				687FEAFC1EC2FE1A0015FB08 /* ViewController.m */,
+				687FEB281EC2FE600015FB08 /* UCView.h */,
+				687FEB291EC2FE600015FB08 /* UCView.m */,
 				687FEAFE1EC2FE1A0015FB08 /* Main.storyboard */,
 				687FEB011EC2FE1A0015FB08 /* Assets.xcassets */,
 				687FEB031EC2FE1A0015FB08 /* LaunchScreen.storyboard */,
@@ -275,6 +280,7 @@
 			files = (
 				687FEAFD1EC2FE1A0015FB08 /* ViewController.m in Sources */,
 				687FEAFA1EC2FE1A0015FB08 /* AppDelegate.m in Sources */,
+				687FEB2A1EC2FE600015FB08 /* UCView.m in Sources */,
 				687FEAF71EC2FE1A0015FB08 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
